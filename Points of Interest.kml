@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Points of Interest</name>
+    <Style id="icon-1634-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1634-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1634-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1634-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1634-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1634-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1634-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1634-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1634-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1634-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1634-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1634-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1634-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1634-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1634-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1703-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1703-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1703-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1703-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1703-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Four Spots</name>
+      <description>This historic junction is marked by 4 yellow spots.</description>
+      <styleUrl>#icon-1739-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -72.107251,42.856332,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Thoreau's Seat]]></name>
+      <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -72.107609,42.850442,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hello Rock</name>
+      <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -72.112626,42.846717,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bald Rock</name>
+      <description>Small deforested peak, also known as KiasticuticusPeak.</description>
+      <styleUrl>#icon-1634-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          -72.106972,42.853865,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sarcophagus</name>
+      <description>Large coffin shaped glacial erratic.</description>
+      <styleUrl>#icon-1739-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -72.097811,42.863109,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Little Mountain</name>
+      <description>Small hill that offers views to the Southeast.</description>
+      <styleUrl>#icon-1634-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          -72.111468,42.842897,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Halfway House Site</name>
+      <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -72.11294,42.851142,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dublin Peak</name>
+      <styleUrl>#icon-1634-0F9D58-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -72.109867,42.86381,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Monadnock Summit</name>
+      <styleUrl>#icon-1634-097138-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -72.10815,42.861366,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Black Precipice</name>
+      <description>Southward facing cliff, frequented by rock climbers.</description>
+      <styleUrl>#icon-1739-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -72.111074,42.857696,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stone House</name>
+      <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -72.119232,42.862999,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mount Rosa</name>
+      <description>Small deforested peak marked with a weathervane.</description>
+      <styleUrl>#icon-1634-0F9D58</styleUrl>
+      <Point>
+        <coordinates>
+          -72.113638,42.856283,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Three Quarters Ledge</name>
+      <description>A false summit, offers the first view of the summit from the White Dot Trail.</description>
+      <styleUrl>#icon-1739-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -72.100342,42.858332,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Halfway on the White Dot</name>
+      <description>Marked by a small wooden sign.</description>
+      <styleUrl>#icon-1739-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -72.095946,42.856553,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Falcon Spring</name>
+      <description>Not officially tested, used by many locals.</description>
+      <styleUrl>#icon-1703-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -72.093459,42.853991,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hunter Rock</name>
+      <description>Large glacial erratic.</description>
+      <styleUrl>#icon-1739-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -72.105393,42.845443,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
