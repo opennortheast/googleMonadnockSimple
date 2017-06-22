@@ -2,6 +2,28 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Summit Trails</name>
+    <Style id="line-FF5252-3325-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>3.325</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF5252-3325-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>4.9875</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF5252-3325">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-3325-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-3325-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-FF5252-3325-nodesc-normal">
       <LineStyle>
         <color>ff5252ff</color>
@@ -714,7 +736,8 @@
     </Placemark>
     <Placemark>
       <name>White Cross Trail</name>
-      <styleUrl>#line-FF5252-3325-nodesc</styleUrl>
+      <description>The White Cross trail runs parallel to the White Dot and makes for a good alternate route to complete a summit loop. Overall the White Cross features less slabby terrain when compared to the White Dot and can make for a slightly safer descent for those less experienced hikers.</description>
+      <styleUrl>#line-FF5252-3325</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -884,7 +907,8 @@
     </Placemark>
     <Placemark>
       <name>White Dot Trail</name>
-      <styleUrl>#line-FF5252-3325-nodesc</styleUrl>
+      <description>The most direct route to the Summit from Park Headquarters the White Dot Trail is almost 2 miles in length and climbs nearly 1800 feet in elevation. The first half mile climbs at a fairly gentle grade but past the spring the slope averages 25-30%. The average hiker can reach the Summit in approximately 2 hours.</description>
+      <styleUrl>#line-FF5252-3325</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -1275,7 +1299,8 @@
     </Placemark>
     <Placemark>
       <name>Pumpelly Trail</name>
-      <styleUrl>#line-FF5252-3325-nodesc</styleUrl>
+      <description>The longest Summit route, the Pumpelly Trail is approximately 4.5 miles. With a roundtrip distance of 9 miles the average hiker should alot at least 6-8 hours.</description>
+      <styleUrl>#line-FF5252-3325</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
