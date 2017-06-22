@@ -2918,5 +2918,22 @@
         </coordinates>
       </LineString>
     </Placemark>
+    <Placemark>
+      <name>Halfway House Gravel Section</name>
+      <styleUrl>#line-FF5252-2356-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -72.113428,42.850228,0
+          -72.11327,42.850394,0
+          -72.113091,42.850593,0
+          -72.112956,42.850743,0
+          -72.112989,42.850939,0
+          -72.112989,42.851161,0
+          -72.112922,42.851275,0
+          -72.11287,42.851545,0
+        </coordinates>
+      </LineString>
+    </Placemark>
   </Document>
 </kml>
