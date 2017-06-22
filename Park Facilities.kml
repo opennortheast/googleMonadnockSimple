@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Park Buildings</name>
+    <name>Park Facilities</name>
     <Style id="icon-1578-795548-normal">
       <IconStyle>
         <color>ff485579</color>
@@ -76,7 +76,7 @@
         <styleUrl>#icon-1603-795548-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1608-795548-nodesc-normal">
+    <Style id="icon-1608-795548-normal">
       <IconStyle>
         <color>ff485579</color>
         <scale>1</scale>
@@ -87,11 +87,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1608-795548-nodesc-highlight">
+    <Style id="icon-1608-795548-highlight">
       <IconStyle>
         <color>ff485579</color>
         <scale>1</scale>
@@ -102,21 +99,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1608-795548-nodesc">
+    <StyleMap id="icon-1608-795548">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1608-795548-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1608-795548-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1608-795548-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1608-795548-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1733-795548-nodesc-normal">
+    <Style id="icon-1644-795548-normal">
       <IconStyle>
         <color>ff485579</color>
         <scale>1</scale>
@@ -127,11 +121,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1733-795548-nodesc-highlight">
+    <Style id="icon-1644-795548-highlight">
       <IconStyle>
         <color>ff485579</color>
         <scale>1</scale>
@@ -142,23 +133,55 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1733-795548-nodesc">
+    <StyleMap id="icon-1644-795548">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1733-795548-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1644-795548-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1733-795548-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1644-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1733-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1733-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1733-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1733-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1733-795548-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>Gilson Pond Booth</name>
-      <styleUrl>#icon-1608-795548-nodesc</styleUrl>
+      <description>Staffed booth that provides information and camper registration.</description>
+      <styleUrl>#icon-1608-795548</styleUrl>
       <Point>
         <coordinates>
           -72.062803,42.860612,0
@@ -167,7 +190,7 @@
     </Placemark>
     <Placemark>
       <name>Gilson Pond Store</name>
-      <description>Includes bathrooms and showers.</description>
+      <description>Includes bathrooms and coin-operated showers.</description>
       <styleUrl>#icon-1578-795548</styleUrl>
       <Point>
         <coordinates>
@@ -177,7 +200,8 @@
     </Placemark>
     <Placemark>
       <name>Visitor Center</name>
-      <styleUrl>#icon-1608-795548-nodesc</styleUrl>
+      <description>The Monadnock Ecocenter</description>
+      <styleUrl>#icon-1608-795548</styleUrl>
       <Point>
         <coordinates>
           -72.088895,42.845825,0
@@ -186,7 +210,8 @@
     </Placemark>
     <Placemark>
       <name>Main Bathroom Building</name>
-      <styleUrl>#icon-1733-795548-nodesc</styleUrl>
+      <description>Coin operated showers in the rear of the building.</description>
+      <styleUrl>#icon-1733-795548</styleUrl>
       <Point>
         <coordinates>
           -72.08838,42.845867,0
@@ -209,6 +234,66 @@
       <Point>
         <coordinates>
           -72.08751,42.844796,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Park Headquarters Trailhead Parking</name>
+      <description>Primary point of entry for Monadnock State Park, offers parking for 200+ cars.</description>
+      <styleUrl>#icon-1644-795548</styleUrl>
+      <Point>
+        <coordinates>
+          -72.08724,42.844941,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gilson Pond Trailhead Parking</name>
+      <description>A small staffed parking lot within the campground, can accommodate approximately 75 to 100 cars.</description>
+      <styleUrl>#icon-1644-795548</styleUrl>
+      <Point>
+        <coordinates>
+          -72.062714,42.862528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Old Toll Road Trailhead Parking</name>
+      <description>A small staffed parking lot that can provide parking for approximately 40 to 50 cars. Note that the Old Toll Road is gated for private use by vehicles. Hikers will either have to walk up the Old Toll Road or use the adjacent Halfway House Trail.</description>
+      <styleUrl>#icon-1644-795548</styleUrl>
+      <Point>
+        <coordinates>
+          -72.114278,42.835311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marlborough Trailhead Parking</name>
+      <description>A small parking lot that can provide parking for approximately 25 to 30 cars. Note that Old Shaker Farm road is poorly maintained and should only be accessed by cars with high clearance.</description>
+      <styleUrl>#icon-1644-795548</styleUrl>
+      <Point>
+        <coordinates>
+          -72.139126,42.859479,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dublin Trailhead Parking</name>
+      <description>A small parking lot that can provide parking for approximately twenty cars. No parking available on Old Troy Road.</description>
+      <styleUrl>#icon-1644-795548</styleUrl>
+      <Point>
+        <coordinates>
+          -72.124899,42.885667,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pumpelly Trailhead</name>
+      <description>Parking available on the side of the road opposite that of Dublin Lake.</description>
+      <styleUrl>#icon-1644-795548</styleUrl>
+      <Point>
+        <coordinates>
+          -72.074909,42.901227,0
         </coordinates>
       </Point>
     </Placemark>
